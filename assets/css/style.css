@@ -453,6 +453,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 .skill-box {
     background-color: #d92cf9; /* changed color */
     color: white;
+    border-color: #1f2c6c;
+    border-width: 50rem;
     padding: 15px 30px;
     border-radius: 6px;
     font-weight: 600;
@@ -469,7 +471,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 .skill-box:hover {
     background-color: #b024c1;
     box-shadow: 0 6px 12px rgba(217, 44, 249, 0.4);
-    border-color: #a01db2;
+    border-color: #1f2c6c;
 }
 /*-------------------------------------
         7. Experience
