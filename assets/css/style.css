@@ -322,6 +322,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     display: flex;
     flex-direction: column;
     position: relative;
+  
 }
 
 .single-horizontal-timeline {
@@ -404,7 +405,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     .single-horizontal-timeline {
         flex-direction: column;
         align-items: flex-start;
+        margin-bottom: 80px;
     }
+    .single-horizontal-timeline:nth-child(1) {
+    margin-bottom: 80px;
+}
+
     .experience-time {
         text-align: left;
         width: 100%;
@@ -837,9 +843,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*.contact-add-info */
 
 /*hm-foot-icon*/
-.hm-foot-icon {
-   
-}
+
 .hm-foot-icon ul li{float:left;}
 .hm-foot-icon ul li>a {
     color: #636a82;
