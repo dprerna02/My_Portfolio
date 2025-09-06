@@ -318,48 +318,61 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
         5.  Education
 --------------------------------------*/
 
-.education-horizontal-timeline {
+.education {
+    padding: 60px 0;
+    background: #f9fbfd;
+    border-top: 1px solid #e5ebf2;
+}
+
+.education-box {
+    max-width: 800px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    position: relative;
-  
+    gap: 40px;
 }
 
-.single-horizontal-timeline {
-    display: flex;
-    align-items: center;
-    margin-bottom: 40px;
-    position: relative;
-}
-
-.experience-time {
-    width: 30%;
-    text-align: right;
-    padding-right: 20px;
-}
-
-.timeline-horizontal-border {
-    display: flex;
-    align-items: center;
-    position: relative;
-    width: 60px;
-}
-
-.timeline-horizontal-border i {
-    font-size: 12px;
-    color: #d92cf9; /* Updated circle color */
+.education-item {
     background: #fff;
-    border: 3px solid #d92cf9; /* Updated border color */
-    border-radius: 50%;
-    z-index: 2;
+    border-left: 4px solid #d92cf9;
+    padding: 20px 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.single-timeline-horizontal {
-    height: 2px;
-    background: #d92cf9; /* Updated line color */
-    flex-grow: 1;
-    margin-left: 10px;
+.education-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
+
+.education-date h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #d92cf9;
+}
+
+.education-date h4 {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.education-details h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.education-details p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 6px;
+}
+
 
 .timeline-content {
     width: 60%;
@@ -912,4 +925,21 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     0%   {bottom:0px;}
     100%  {bottom:7px;}
 }
+
+/* Footer Styles */
+.footer {
+  background: #111;        /* dark background */
+  color: #fff;             /* white text */
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+
 /*========================Thank you=================
